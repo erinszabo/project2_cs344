@@ -4,9 +4,9 @@
 
 int n;
 
-int main( int argcount, char* args[]) {
+int main( int argcount, char* argv[]) {
     for(n = 0; n <= argcount; ++n){
-        printf("%s", args[n]);
+        printf("%s", argv[n]);
     }
     return 0;
 }
