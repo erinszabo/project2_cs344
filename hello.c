@@ -1,14 +1,16 @@
 #include <unistd.h>
 #include <stdio.h>
 
-//int x = 12;
-//float y = 3.14;
-//char* s = "Hello, world!";
-
+int x = 12, n;
+float y = 3.14;
+char* s = "Hello, world!";
 
 int main() {
-  // print x and y string
-   printf("Hello, world!");
-  // print multiples of 5
-   return 0;
+    printf("x is %d, y is %f", x, y);
+    printf("%s", s);
+    // print multiples of 5
+    for( n = 0; n <= 5; ++n){
+        printf("%d x 5 = %d", n, n * 5);
+    }
+    return 0;
 }
