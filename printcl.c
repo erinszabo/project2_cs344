@@ -1,12 +1,11 @@
 #include <unistd.h>
 #include <stdio.h>
-#include <iterator>
 
 int n;
 
-int main( int argcount, char* argv[]) {
-    for(n = 0; n <= argcount; ++n){
-        printf("%s", argv[n]);
+int main( int argc, char *argv[]) {
+    for(n = 0; n <= argc-1; ++n){
+        printf("%s\n", argv[n]);
     }
     return 0;
 }

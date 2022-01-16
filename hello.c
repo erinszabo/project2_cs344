@@ -1,6 +1,5 @@
 #include <unistd.h>
 #include <stdio.h>
-// #include <iterator>
 
 int x = 12, n;
 float y = 3.14;
